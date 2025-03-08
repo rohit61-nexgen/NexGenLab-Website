@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>International Job Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>NexGenLab Job Portal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#jobs">Job Listings</a></li>
+                    <li><a href="#form">Apply Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Our NexGenLab Job Portal</h2>
+           <b><p>Welcome to the NexGenLab Job Portal! NexGenLab is an exciting new startup in the tech industry, focused on cutting-edge software solutions. Our portal is designed to help you explore and apply for career opportunities within our growing company. Whether you're looking to kickstart your career or advance in the tech field, we offer a dynamic and innovative environment where you can thrive. Join us and be part of shaping the future of software technology at NexGenLab!</p></b>
+        </div>
+    </section>
+
+   
+    <!-- Job Listings -->
+    <section id="jobs" class="section">
+        <div class="container">
+            <h2>Available Job Listings</h2>
+            <div class="job-listings">
+                <!-- Job Box 1 -->
+                <div class="job-box">
+                    <h3>Software Engineer - NexGenLab</h3>
+                    <p><strong>Location:</strong> Ghazipur, U.P</p>
+                    <p><strong>Skills:</strong> Java, Python, Cloud Computing, ML</p>
+                    <a href="#form">
+                        <button>Apply Now</button>
+                    </a>
+                </div>
+                <!-- Job Box 2 -->
+                <div class="job-box">
+                    <h3>Data Scientist - NexGenLab</h3>
+                    <p><strong>Location:</strong> Ghazipur, U.P</p>
+                    <p><strong>Skills:</strong> Python, R, SQL, Machine Learning</p>
+                    <a href="#form">
+                        <button>Apply Now</button>
+                    </a>
+                </div>
+                <!-- Job Box 3 -->
+                <div class="job-box">
+                    <h3>Product Manager - NexGenLab</h3>
+                    <p><strong>Location:</strong> Ghazipur, U.P</p>
+                    <p><strong>Skills:</strong> Project Management, Leadership, Strategy</p>
+                    <a href="#form">
+                        <button>Apply Now</button>
+                    </a>
+                </div>
+                <!-- Job Box 4 -->
+                <div class="job-box">
+                    <h3>DevOps Engineer - NexGenLab</h3>
+                    <p><strong>Location:</strong> Ghazipur, U.P</p>
+                    <p><strong>Skills:</strong> Linux, Kubernetes, Docker, Cloud</p>
+                    <a href="#form">
+                        <button>Apply Now</button>
+                    </a>
+                </div>
+                <!-- Job Box 5 -->
+                <div class="job-box">
+                    <h3>Blockchain Developer - NexGenLab</h3>
+                    <p><strong>Location:</strong> Ghazipur, U.P</p>
+                    <p><strong>Skills:</strong> Solidity, Blockchain, Ethereum, Cryptocurrency</p>
+                    <a href="#form">
+                        <button>Apply Now</button>
+                    </a>
+                </div>
+                <!-- Job Box 6 -->
+                <div class="job-box">
+                    <h3>Cybersecurity Analyst - NexGenLab</h3>
+                    <p><strong>Location:</strong> San Ghazipur, U.P</p>
+                    <p><strong>Skills:</strong> Security Tools, Penetration Testing, Firewalls</p>
+                    <a href="#form">
+                        <button>Apply Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Job Application Form -->
+     <section id="form" class="section">
+        <div class="container">
+            <h2>Student Job Application Form</h2>
+            <form id="applicationForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="education">Highest Level of Education:</label>
+                <input type="text" id="education" name="education" required>
+
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" required></textarea>
+
+                <label for="cv">Upload CV:</label>
+                <input type="file" id="cv" name="cv" required>
+
+                <button type="submit">Submit Application</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 International Job Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

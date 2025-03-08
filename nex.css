@@ -1,0 +1,198 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    margin: 80px 20px 20px 20px;
+}
+
+section h2 {
+    color: #003366;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Service Box Styles */
+.service-box {
+    display: inline-block;
+    width: 45%; /* Reduced width */
+    margin: 10px 2.5%; /* Adjusted to keep two boxes per line */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border-left: 5px solid #003366;
+    border-right: 5px solid #003366;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    color: #003366;
+}
+
+.service-box p {
+    font-size: 16px;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Box Styles */
+.project-box {
+    display: inline-block;
+    width: 45%; /* Reduced width */
+    margin: 10px 2.5%; /* Adjusted to keep two boxes per line */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border-left: 5px solid #33cc33;
+    border-right: 5px solid #33cc33;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.project-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-box h3 {
+    font-size: 20px;
+    color: #003366;
+    margin-top: 15px;
+}
+
+.project-box p {
+    font-size: 16px;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Administrator Section */
+#administrator {
+    margin-top: 40px;
+}
+
+.admin-bio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.bio-details h3 {
+    font-size: 24px;
+    color: #003366;
+}
+
+.bio-details p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #33cc33;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 12px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #444;
+}

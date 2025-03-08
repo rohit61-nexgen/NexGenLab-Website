@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Inquiry Form - NexGenLab</title>
+    <link rel="stylesheet" href="fill.css">
+</head>
+<body>
+
+   
+    <!-- Form Section -->
+    <section class="inquiry-section">
+        <h2>Business Inquiry Form</h2>
+        <p class="subtitle">Please fill out the details below to get in touch with us.</p>
+
+        <!-- Form with Formspree Action -->
+        <form id="business-form" action="https://formspree.io/f/yourFormID" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="business-type">Type of Business</label>
+                <select id="business-type" name="business-type" required>
+                    <option value="">Select Business Type</option>
+                    <option value="Startup">Startup</option>
+                    <option value="Small Business">Small Business</option>
+                    <option value="Corporate">Corporate</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="School">School</option>
+                    <option value="Hotel/Restaurant">Hotel/Restaurant</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">How can we help you?</label>
+                <textarea id="message" name="message" placeholder="Tell us about your needs..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit-button">Submit Inquiry</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+                       </div>
+            <p>&copy; 2024 NexGenLab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="fill.js"></script>
+</body>
+</html>
